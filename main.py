@@ -13,4 +13,5 @@ def root():
         "/lazada/get_token",
         "/lazada/refresh_token",
         "/lazada/order/get",
+        "/lazada/finance/transaction/detail/get"
     ]}
