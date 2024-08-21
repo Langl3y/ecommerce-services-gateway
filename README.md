@@ -23,6 +23,14 @@
 ./init.sh
 ```
 
+## Env
+
+Create `.env` file
+
+```shell
+cp .env.sample .env
+```
+
 ## Run server for testing
 
 ```shell
@@ -41,12 +49,22 @@ uvicorn main:app
  uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
+## Docker
+#### Containerize
+
+```shell
+ docker build -t lazada-service-gateway .
+```
+
+#### Docker run
+
+```shell
+docker run -d --name lazada-service-gateway -p 80:80 lazada-service-gateway                        
+```
+
 ## Important Note:
 
-This demo will not work if there is no schema for it to connect to. 
-Please create a schema in mySQL first, then reconfigure URL_DATABASE so It matches your schema's name.
 
-Also, tables will be automatically created upon creating any object by SQLAlchemy. Be sure not to pre-create any tables inside the schema to avoid conflict.
 ## APIs Documentation
 
 See: host/docs in your browser for APIs documentation.
