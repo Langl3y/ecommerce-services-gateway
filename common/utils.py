@@ -9,11 +9,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-base_url = os.getenv("BASE_URL")
-auth_url = os.getenv("AUTH_URL")
-secret = os.getenv("SECRET")
-app_key = os.getenv("APP_KEY")
-sign_method = os.getenv("SIGN_METHOD")
+base_url = os.getenv("LAZ_BASE_URL")
+auth_url = os.getenv("LAZ_AUTH_URL")
+secret = os.getenv("LAZ_SECRET")
+app_key = os.getenv("LAZ_APP_KEY")
+sign_method = os.getenv("LAZ_SIGN_METHOD")
 
 
 # Lấy timestamp cho request
