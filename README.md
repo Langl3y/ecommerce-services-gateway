@@ -59,7 +59,7 @@ uvicorn main:app
 #### Docker run
 
 ```shell
-docker run -d --name lazada-service-gateway -p 80:80 lazada-service-gateway                        
+docker run -d --name lazada-service-gateway -p 8000:8000 lazada-service-gateway                        
 ```
 
 ## Important Note:
