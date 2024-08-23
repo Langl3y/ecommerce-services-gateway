@@ -53,13 +53,13 @@ uvicorn main:app
 #### Containerize
 
 ```shell
- docker build -t lazada-service-gateway .
+ docker build -t lazada-gateway .
 ```
 
 #### Docker run
 
 ```shell
-docker run -d --name lazada-service-gateway -p 8000:8000 lazada-service-gateway                        
+docker run -d --name lazada-gateway -p 8000:8000 lazada-gateway                        
 ```
 
 ## Important Note:
