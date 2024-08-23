@@ -14,4 +14,4 @@ COPY ./serializers /lazada-service-gateway/serializers
 COPY ./services /lazada-service-gateway/services
 COPY ./main.py /lazada-service-gateway/main.py
 #
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80", "--reload"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
