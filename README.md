@@ -5,8 +5,8 @@
 
 # FastAPI - Lazada service gateway 
 
-<span style="color:red;font-weight:700;font-size:100px">
-    Not tested on Windows.
+<span style="color:red;font-weight:700;font-size:50px">
+    Tested on Windows
 </span>
 
 ## Requirements
@@ -46,7 +46,7 @@ uvicorn main:app
 ## Serve the webapp
 
 ```shell
- uvicorn main:app --host 0.0.0.0 --port 8000
+ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 ## Docker
