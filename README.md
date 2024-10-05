@@ -3,7 +3,7 @@
     <p style="text-align: center;">
 </p>
 
-# FastAPI - Lazada service gateway 
+# E-commerce service gateway 
 
 <span style="color:red;font-weight:700;font-size:50px">
     Tested on Windows
